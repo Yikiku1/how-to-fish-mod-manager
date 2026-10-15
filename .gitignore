@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build/
+build/
+dist/
+*.spec
+*.exe
+*.zip
+network-check.json
+.htf-mod-manager/
+*.log
+.env
+.env.*

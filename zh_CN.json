@@ -1,0 +1,1202 @@
+{
+  "BepInEx-BepInExPack": {
+    "name": "BepInEx 加载器",
+    "description": "适用于 Mono Unity 游戏的预配置 BepInEx 加载器，其他插件常用的基础依赖。",
+    "source_description": "BepInEx pack for Mono Unity games. Preconfigured and ready to use."
+  },
+  "clunt585-LaptopMode": {
+    "name": "低配电脑模式",
+    "description": "通过降低渲染比例、FSR、简化阴影和后期效果提高帧率。F8 切换模式，F9 显示帧率。",
+    "source_description": "AI-made FPS boost for weak PCs/laptops: 75% render + FSR, cheap shadows, no heavy post-effects. F8 cycles Balanced/Potato/Off, F9 FPS counter. Client-side, multiplayer-safe."
+  },
+  "Kesomannen-GaleModManager": {
+    "name": "Gale Mod 管理器",
+    "description": "面向 Thunderstore 的轻量 Mod 管理器。",
+    "source_description": "A modern and lightweight alternative mod manager for Thunderstore."
+  },
+  "justresearch-MoreCosmetics": {
+    "name": "更多角色装扮",
+    "description": "新增 10 顶帽子、9 件配饰和 9 套服装，可在角色定制中调色。",
+    "source_description": "10 new hats, 9 accessories and 9 outfits for your character, all colorable in the character customizer."
+  },
+  "justresearch-DynamiteUpgrades": {
+    "name": "炸药升级",
+    "description": "在子弹升级柜台升级炸药，随岛屿进度解锁更强爆炸等级。",
+    "source_description": "Upgrade dynamite to Strong, Super and Mega at the bullet upgrade counter, unlocked island by island. Bigger blasts, more fish."
+  },
+  "ShchetnikovMods-FishVsHunters": {
+    "name": "鱼类大战猎人",
+    "description": "非对称对抗模式：扮演鱼捕食、升级和进化，或扮演人类猎鱼；支持联机和存档进度。",
+    "source_description": "Asymmetric Fish vs Hunters mode: play as a fish that eats prey, levels up and evolves via skins and mutations (Primal or Intelligence path), or hunt fish as a human. Round system, per-save persistent progress, full multiplayer support."
+  },
+  "NeuTroNBZh-CombatModes": {
+    "name": "多人竞技模式",
+    "description": "新增单挑、混战和枪械升级战，支持 2—8 人；所有玩家均需安装。",
+    "source_description": "Competitive multiplayer for How to Fish: 1v1 Duel, Free-for-all and Gun Game (2-8 players) with native menus, scoreboard, random fair loadouts and quick match. Every player needs the mod."
+  },
+  "FishCraft-FishCraft_Link": {
+    "name": "我的世界联动",
+    "description": "在游戏中加入 Minecraft 方块、生物与物品；需要 Minecraft Java 版和 Prism Launcher，详见作者说明。",
+    "source_description": "Real Minecraft inside How to Fish: fight, mine, build and fish with Minecraft's blocks, mobs and items. Needs Minecraft Java and Prism Launcher (the Minecraft pack is included; see the README)."
+  },
+  "0cahlo-LifeRing": {
+    "name": "救生圈",
+    "description": "将 Badball 改为救生圈，在水中持握可防止下沉；客户端插件。",
+    "source_description": "Repurposes the Badball into a useful Life Ring. Holding it in the water will keep you from sinking. Client-side."
+  },
+  "0cahlo-BuriedTreasures": {
+    "name": "海上藏宝图",
+    "description": "海面新增漂流瓶，内含随机藏宝图、玩家留言和鱼饵等内容。",
+    "source_description": "Adds Messages in a Bottle that float at sea. They hold procedurally generated treasure maps, crowd-sourced notes, random bait and more!"
+  },
+  "0cahlo-BoomLagoon": {
+    "name": "核试验泻湖",
+    "description": "雷达新增核试验场岛屿；听到警报后寻找掩体。",
+    "source_description": "Boom Lagoon: Adds a new island to your radar of a nuclear bomb test site. Listen for sirens and take cover"
+  },
+  "AISA-BetterHowToFish": {
+    "name": "钓鱼趣味增强",
+    "description": "击打地上的鱼赌售价，喝啤酒加速，使用漂流瓶增加翻倍概率但会中毒。",
+    "source_description": "Hit the fish on the ground to gamble its value, drink beer for a speed buff, and use Message in a Bottle for a double-chance buff with poison. / 击打地上的鱼赌价格，喝啤酒加速，使用瓶中信获得翻倍概率加成但会中毒。"
+  },
+  "trisparbs-HowToFist": {
+    "name": "拳击与钓鱼扩展",
+    "description": "加入钓鱼机制，或自定义战斗音效与纹理；具体内容以作者页面为准。",
+    "source_description": "Adds fishing mechanics or custom fighting audio assets and textures to the game."
+  },
+  "AITeam-FishGatherer": {
+    "name": "物品集中收集",
+    "description": "将散落物品和鱼传送到身边，一键出售死鱼与海鸥，并自动收集船经过的物品。",
+    "source_description": "Teleport all loose items or fish to you, sell every dead fish and gull with one key, and automatically collect everything the boat passes over."
+  },
+  "AITeam-FloodFix": {
+    "name": "爆炸网络负载优化",
+    "description": "减少连锁炸药造成的网络与击杀提示拥堵，保留鱼的价值，并降低语音通信负载。",
+    "source_description": "Stops big TNT chains from flooding the network and the kill popups, without losing fish value. Also trims voice chat traffic and Opus load."
+  },
+  "YuWan-SeagullFishing": {
+    "name": "钓上海鸥",
+    "description": "咬钩时可能钓上海鸥或已经点燃的炸药。",
+    "source_description": "Bites may yield a seagull or a lit dynamite instead of a fis."
+  },
+  "YuWan-BetterCorpses": {
+    "name": "尸体玩法扩展",
+    "description": "玩家尸体获得随机售价，可用于出售或赌场玩法；另有复活等待与食用尸体救人等设置。",
+    "source_description": "Corpse economy: player corpses get a random price (-50 to 50) and can be sold to money NPCs, bet on the casino table, or fed to the slot machine for skins; plus a configurable forced respawn wait and corpse-eating revives (with eat sound & VFX)."
+  },
+  "YuWan-RandomCreatureSize": {
+    "name": "随机生物体型",
+    "description": "鱼、海鸥、螃蟹和 Boss 等生物随机变大或变小，并关联重量与售价；大体型移动更慢。",
+    "source_description": "Every creature (seagulls, fish, crabs, albatrosses, bosses) gets a random size: one value drives appearance, weight, price, save and multiplayer. Bigger creatures move slower."
+  },
+  "SkyLiN3-Devourer_of_Light": {
+    "name": "噬光者 Boss",
+    "description": "新增四阶段鮟鱇鱼 Boss，包含动态技能、原版风格血条和可配置钓获概率。",
+    "source_description": "A four-phase Anglerfish boss encounter with dynamic abilities, vanilla boss UI, and a configurable catch chance."
+  },
+  "SkyLiN3-Voltfin": {
+    "name": "电鳍 Boss",
+    "description": "新增可挑战的鳗鱼 Boss，同时提供 BossMakerAPI 的开发示例。",
+    "source_description": "A playable Eel boss and BossMakerAPI learning example: dodge Static Lance, survive Overcharge, and study the included API starter to create your own boss."
+  },
+  "SkyLiN3-BossMakerAPI": {
+    "name": "自定义 Boss 开发接口",
+    "description": "用于制作多阶段与多技能 Boss，支持原版界面和 FishNet 联机同步；开发依赖。",
+    "source_description": "Server-authoritative API for custom How to Fish bosses with phases, abilities, vanilla boss UI and FishNet multiplayer."
+  },
+  "khalil-HowToFishDirectConnect": {
+    "name": "IP 直连联机",
+    "description": "通过 IP 地址直接合作，无需 Steam 大厅或中继；提供中英文游戏内面板。",
+    "source_description": "Play How to Fish co-op over a direct IP connection - no Steam lobby or relay needed. Clean bilingual (EN / 中文) in-game panel. Does not modify the game's files."
+  },
+  "PRZ-MiniMapFix": {
+    "name": "小岛雷达距离扩展",
+    "description": "扩大雷达对小型岛屿的显示距离。",
+    "source_description": "Extends the radar display distance of mini islands in How to Fish."
+  },
+  "PonyFisher-Drone_Mod": {
+    "name": "无人机",
+    "description": "新增可定制的哨戒与第一视角无人机，支持跟随、武器、瞄准、升级与联机归属。",
+    "source_description": "A customizable sentry and FPV drone with smooth follow flight, mounted weapons, targeting, upgrades, colors, and multiplayer ownership."
+  },
+  "PonyFisher-TurretMod": {
+    "name": "自动炮塔",
+    "description": "新增可部署炮塔，支持武器插槽、升级、目标控制、召回和表面放置。",
+    "source_description": "Deployable automated turrets with weapon sockets, upgrades, targeting controls, recall, and surface placement."
+  },
+  "Avariiiprime-dyf": {
+    "name": "队友尸体轮盘",
+    "description": "将阵亡队友用于赌场轮盘玩法，包含债务和亡者语音聊天。",
+    "source_description": "Gamble your dead friends on the casino roulette table! Features bail debts, roulette gambling, and spooky dead voice chat."
+  },
+  "SunshinePlunge-KRAKEN_How_to_Fish_Mod_Menu": {
+    "name": "KRAKEN 功能菜单",
+    "description": "复古 COD 风格功能菜单；需要 Windows x64、Mono 版游戏和 BepInEx 5，按作者说明操作。",
+    "source_description": "Old-school COD-style mod menu for How to Fish. Requires Windows x64, the Windows Mono game version and BepInEx 5. See README.md for installation and controls."
+  },
+  "Linux_Squad-Enhanced_HowToFish": {
+    "name": "增强玩法整合包",
+    "description": "结合便利性改进与新玩法的 Mod 整合包。",
+    "source_description": "How To Fish modpack blending QOL improvements with new gameplay mechanics"
+  },
+  "AtomicStudio-Stackable_Items": {
+    "name": "物品堆叠",
+    "description": "让相同物品堆叠在一个背包格中。",
+    "source_description": "Adds stacking the same item into one slot"
+  },
+  "Amashiro_MaoNu-BossRank": {
+    "name": "Boss 伤害排行",
+    "description": "Boss 出现时提示，击杀后在聊天窗口显示伤害排行榜。",
+    "source_description": "Display a boss spawn notification and a damage ranking report in the chat window after the boss is killed / BOSS 出现时提示，BOSS 被击杀后在聊天窗显示伤害排行榜。"
+  },
+  "Amashiro_MaoNu-DeathTips": {
+    "name": "倒地与复活提示",
+    "description": "在聊天窗口提示玩家倒地、被救起和复活。",
+    "source_description": "Display a notification in the chat window when a player is downed, revived, or respawned / 玩家倒地、被救活、复活时在聊天窗显示提示。"
+  },
+  "Amashiro_MaoNu-JoinNotice": {
+    "name": "玩家进出提示",
+    "description": "在聊天窗口提示玩家加入或离开。",
+    "source_description": "Display a notification in the chat window when a player joins or leaves / 玩家加入和退出时在聊天窗显示提示。"
+  },
+  "PRZ-PRZ_KillScoreDetail_CN": {
+    "name": "击杀评分明细",
+    "description": "按原版 F 键查看鱼的击杀分项评分并随存档保留；只记录安装后的击杀。",
+    "source_description": "PRZ - KillScoreDetail CN | 游戏原版 F 查看鱼的击杀分项明细，分项会随存档保留。注意：只记录安装后击杀的"
+  },
+  "nepoi-NpcWalk": {
+    "name": "会走路的 NPC",
+    "description": "让 NPC 在场景中走动。",
+    "source_description": "NPCs finally walk around!!!"
+  },
+  "nepoi-FishVisuals": {
+    "name": "视觉调整",
+    "description": "调整第一人称模型位置、画面拉伸和滤镜；按 Insert 打开，客户端生效。",
+    "source_description": "client side visuals for how to fish. viewmodel offset, screen stretch and color filters. open with insert. bepinex only, other mods optional."
+  },
+  "PRZ-ToggleMute": {
+    "name": "麦克风快捷开关",
+    "description": "按 V 键切换麦克风开关。",
+    "source_description": "ToggleMute | Press V to toggle your microphone. 按V快捷开关麦克风。"
+  },
+  "ENDERsBANDITS-Enders_Ultimate_Fish_Warden_Admin_Mod": {
+    "name": "Fish Warden 房主管理",
+    "description": "房主端反作弊与管理控制台，包含捣乱惩罚及可选择开放的辅助菜单。",
+    "source_description": "Host-side anti-cheat with an in-game admin console, matched troll punishments, and an optional cheat menu you choose to allow."
+  },
+  "ErwinsMods-SeagullDigestion": {
+    "name": "海鸥消化",
+    "description": "海鸥吃掉偷来的食物后留下可出售的粪便；食用会产生负面代价。",
+    "source_description": "Seagulls actually eat the food they steal and leave a poop behind. Sells for a randomised price, and eating it costs you."
+  },
+  "PonyFisher-Water_Walking_Boots": {
+    "name": "水上行走靴",
+    "description": "新增可重复使用的靴子，支持在水面行走、冲刺和跳跃。",
+    "source_description": "Explore the ocean on foot with reusable boots that let you walk, sprint, and jump across the water's surface."
+  },
+  "PonyFisher-Boom_Goes_the_Dynamite": {
+    "name": "爆炸物扩展",
+    "description": "新增超级炸药、可部署核弹、定时炸弹和感应地雷。",
+    "source_description": "Four new explosives for How to Fish: super dynamite, a deployable nuke, a configurable time bomb, and proximity mines."
+  },
+  "Sopika-More_Colours": {
+    "name": "界面颜色定制",
+    "description": "在选项中调整评分、命中提示、金钱、状态、Boss 血条、聊天和快捷栏等颜色，支持预览。",
+    "source_description": "Recolour the HUD from a new Colours screen in Options: score popups, hitmarkers, money, vitals, boss bars, chat, hotbar, drip text and more, with live previews."
+  },
+  "ReyshersU-Better_How_To_Fish": {
+    "name": "体型与成长增强",
+    "description": "鱼与 Boss 最大可随机到 25 倍体型，并关联属性和价值；包含血条、排行、钓竿升级等功能。",
+    "source_description": "Random fish and boss sizes up to x25, scaled stats and value, MoreFish compatibility, shared health bars, catch cards, rankings, and rod upgrades."
+  },
+  "LicenseX-FairShare": {
+    "name": "皮肤共享",
+    "description": "转盘获得皮肤时自动分享给同一大厅的其他玩家。",
+    "source_description": "Automatically shares any skin you win from the Reel of Fortune with everyone else in your lobby."
+  },
+  "JacobSmear-HTF1v1": {
+    "name": "单挑竞技场",
+    "description": "新增多张 1v1 地图，以及龙卷风、洪水等天气事件。",
+    "source_description": "1v1 duel mod includes maps like Skyscraper, Arcade, Arena, Warehouse, Facility, and more, plus weather events like tornados and floods"
+  },
+  "PonyFisher-Fishing_Chairs_Mod": {
+    "name": "便携钓鱼椅",
+    "description": "新增三款可放置、共享和出售的便携椅，坐下仍能钓鱼。",
+    "source_description": "Take a seat and keep fishing with three portable chairs you can place, share, and sell."
+  },
+  "unia-NoDynamitePlayerDamage": {
+    "name": "炸药不伤玩家",
+    "description": "恢复炸药不伤玩家、但正常伤鱼的行为；仅房主需要安装。",
+    "source_description": "Re-implements the old speedrunning behaviour where dynamite deals no damage to players. Fish still take full damage. Host-only, nobody else needs the mod. Built with the aid of Claude Opus 5."
+  },
+  "SRTeam-HPDisplay": {
+    "name": "精确生命值",
+    "description": "在 Boss 血条与钓上来的鱼上方显示准确生命值。",
+    "source_description": "Показывает точное количество ХП на полосках Боссов и над выловленной рыбой."
+  },
+  "PonyFisher-Fishmen_Invasion_Mod": {
+    "name": "鱼人入侵",
+    "description": "新增鱼人入侵控制、攻击型变种、大型 Boss、音乐和闪电等内容。",
+    "source_description": "Adds optimized Fishmen invasion controls, aggressive variants, terrain recovery, oversized bosses with vanilla death explosions, music, and lightning."
+  },
+  "PonyFisher-Glowing_Lines_and_Lures": {
+    "name": "发光鱼线与鱼饵",
+    "description": "为鱼线和鱼饵添加可调颜色、柔光与灯光图案。",
+    "source_description": "Color your fishing lines and lures with adjustable soft halos and playful light patterns."
+  },
+  "XIPROZ-HowToFishExtended": {
+    "name": "进阶成长扩展",
+    "description": "包含突破武器升级上限、鱼类变异、幸运系统、周目进阶、战利品、血条和储物面板。",
+    "source_description": "Weapon upgrades past the cap, fish size variants, mutations and rare pickups, a Lucky Charm luck system, a New Game+ ascension loop, catch trophies, health bars and a storage panel. Fully configurable."
+  },
+  "BeholdTeam-Behold_Pirates": {
+    "name": "海盗舰队",
+    "description": "新增有完整船员的敌对舰队，在外海追击并攻击玩家。",
+    "source_description": "Adds hostile, fully crewed fleets that pursue and battle players who venture into the open ocean."
+  },
+  "ErwinsMods-HowToNemo": {
+    "name": "海底总动员尼莫",
+    "description": "将小丑鱼外观替换为尼莫，保留原有游动、烹饪和出售行为。",
+    "source_description": "Replaces the clownfish with Nemo. The model is fitted to whatever fish it replaces, so he still wiggles, cooks and sells like the original."
+  },
+  "PonyFisher-Skin_Checklist": {
+    "name": "皮肤收集清单",
+    "description": "在可拖动的游戏内清单中浏览全部皮肤，并直接应用已收集皮肤。",
+    "source_description": "Browse every item skin and directly apply collected skins from a draggable in-game checklist."
+  },
+  "B3rries-GamblersReach": {
+    "name": "赌徒港湾",
+    "description": "新增港湾、六种鱼、两个 Boss、港湾鹰与合作二十一点；作者标注适配游戏 1.0.12。",
+    "source_description": "Explore a new harbor, catch six fish species, battle two bosses, dodge Harbor Hawks, and play co-op blackjack. For How to Fish 1.0.12."
+  },
+  "Lookenpeepers1-ToggleKillScoreBonuses": {
+    "name": "击杀加成开关",
+    "description": "启用或停用必定触发的击杀评分加成。",
+    "source_description": "Constantly spinning to hit that 360? Enable or disable guarenteed kill score bonuses."
+  },
+  "B3rries-TidehaulNets": {
+    "name": "船载捕鱼网",
+    "description": "购买船载渔网，升级绞盘并将活鱼拉上甲板；可独立于赌徒港湾使用。",
+    "source_description": "Buy a boat-mounted fishing net, upgrade its winch, and haul live catches onto the deck. Works with or without Gambler's Reach."
+  },
+  "B3rries-ExpansionKit": {
+    "name": "扩展包基础库",
+    "description": "赌徒港湾与船载捕鱼网所需的共用依赖，本身不新增玩法。",
+    "source_description": "Shared mod support for How to Fish. Required by Gambler's Reach and Tidehaul Nets; adds no gameplay content on its own."
+  },
+  "ScarlettTech-MoreFish": {
+    "name": "更多鱼类",
+    "description": "增加鱼类品种与大量变种、自定义模型、影响售价的能力、武装鱼和战利品展示。",
+    "source_description": "1,166 fish variants across 53 species, 10 new fish with custom models, abilities that change their value, armed fish that shoot back, and trophy mounting."
+  },
+  "PonyFisher-Portable_Grill_Mod": {
+    "name": "便携烤架",
+    "description": "新增可随处部署的小型营火烤架，方便外出烤鱼。",
+    "source_description": "Bring grilling anywhere with a compact deployable campfire grill for cooking fish on the go."
+  },
+  "PonyFisher-Lantern_Mod": {
+    "name": "便携灯笼",
+    "description": "新增可自定义颜色与亮度的灯笼，支持常亮、脉冲和频闪。",
+    "source_description": "Portable customizable lanterns with saved colors, brightness controls, static, pulse, and strobe lighting modes."
+  },
+  "PonyFisher-Cooler_Mod": {
+    "name": "便携鱼箱",
+    "description": "新增可重复部署的保冷箱，存放 20 条鱼，并可在商人处整箱出售。",
+    "source_description": "Adds a reusable deployable cooler that stores 20 fish and sells its contents in one vendor interaction."
+  },
+  "ReyshersU-How_To_ROUNDS": {
+    "name": "ROUNDS 风格对战",
+    "description": "支持叠加升级、Steam 房间代码和随机自定义竞技场的多人对抗模式。",
+    "source_description": "A competitive ROUNDS-inspired multiplayer mode with stacking upgrades, Steam room codes, and randomized custom arenas."
+  },
+  "fuckinggeek-Blackjack": {
+    "name": "二十一点",
+    "description": "新增二十一点玩法，目前只在第四岛提供。",
+    "source_description": "blackjack literally, currently only in island 4."
+  },
+  "Sinner2001-LuckyDynamite": {
+    "name": "幸运炸药",
+    "description": "炸药按稀有度生成鱼，可配置闪光品质、权重、预设和岛屿进度限制。",
+    "source_description": "Dynamite spawns fish grouped by rarity tier with optional drip (shiny) quality. Configurable weights, presets, and island progression filter."
+  },
+  "Sinner2001-FastReelMod": {
+    "name": "快速收线",
+    "description": "收线时按住左 Shift，加快收鱼速度。",
+    "source_description": "Hold LeftShift while reeling to reel in fish several times faster."
+  },
+  "Sinner2001-BulkSellMod": {
+    "name": "整组出售",
+    "description": "将同类鱼整组卖给 NPC；先按左 Shift＋Q，再投喂 NPC。",
+    "source_description": "Sell an entire matching stack of fish to an NPC at once. Hold LeftShift + press Q to arm, then feed an NPC."
+  },
+  "Sinner2001-BulkPickupMod": {
+    "name": "批量拾取",
+    "description": "一次拾取设定范围内的多个地面物品，可切换自动拾取。",
+    "source_description": "Pick up multiple ground items at once within a configurable radius, with auto-pickup toggle."
+  },
+  "PonyFisher-Cooking_Bell_Timer": {
+    "name": "烹饪计时铃",
+    "description": "显示烹饪倍率与进度，在 1.48 倍时响铃，并改进烧焦阶段倍率显示。",
+    "source_description": "A convenient visual cooking timer with accurate 1.00x-1.50x cooking progress, a bell at 1.48x, and a slower, more accurate burning-side multiplier."
+  },
+  "SRTeam-MyCustomRadio": {
+    "name": "联机自定义电台",
+    "description": "支持 MP3 下载的多人电台，按 Y 打开面板。",
+    "source_description": "Кастомное мультиплеерное радио. Поддерживает загрузку MP3. Активация панели на 'Y' | Custom multiplayer radio. Supports MP3 downloads. Activate the panel by pressing 'Y'"
+  },
+  "XIPROZ-ModelKit": {
+    "name": "自定义模型开发库",
+    "description": "加载 OBJ、MTL 和 PNG 模型，无需 AssetBundle；包含材质、透明裁切及玩家模型支持。",
+    "source_description": "Library for mod authors: load custom OBJ/MTL/PNG models without AssetBundles, so a game update cannot invalidate your art. Handles pipeline-correct materials, cutout transparency and player overrides."
+  },
+  "AtomicStudio-Fishydex": {
+    "name": "鱼饵图鉴",
+    "description": "查看钓获各种鱼所需的鱼饵，并切换闪光变种显示。",
+    "source_description": "Be able to see what lure you need to catch a fish and toggle drip variants!"
+  },
+  "Untamo-Untamo_Boats": {
+    "name": "船只玩法扩展",
+    "description": "新增可购买船与引擎，支持颜色、雷达、巡航、跟随、船锚、燃料、损伤和维修。",
+    "source_description": "Expanded boat gameplay with purchasable boats, motors, 1024/RGB/HSB/HEX color customization, radar, cruise, follow, anchor, fuel, damage, repairs and more."
+  },
+  "Mairya-Better_Play_HowToFish_Pack": {
+    "name": "Mairya 优化整合包",
+    "description": "包含多种优化与内容扩展的渔力全开整合包。",
+    "source_description": "我的HowToFish整合包，包含大量优化、内容mod"
+  },
+  "PonyFisher-NewRadioTracks": {
+    "name": "新增电台曲目",
+    "description": "新增六首电台曲目，并自动使用空闲频率。",
+    "source_description": "Adds six custom radio tracks to How to Fish using dynamic unused-frequency placement."
+  },
+  "SpongeMods-SpongesCheats": {
+    "name": "Sponge 辅助功能",
+    "description": "包含玩家无敌、超高拳伤、轮盘必胜、皮肤去重、开发岛、多段跳和游泳加速。",
+    "source_description": "Godmode (players only), 999999 fist damage, always-green roulette, no duplicate skins from the skin machine, the hidden dev island, 10x multi-jump and 5x swim speed."
+  },
+  "SpongeMods-SpongesBetterMultiplayerExperience": {
+    "name": "Sponge 联机增强",
+    "description": "扩大房间人数上限，延长卡顿玩家被断开前的等待时间；仅房主需要。",
+    "source_description": "Bigger lobbies than the stock eight, and a longer grace period before a stalled player gets dropped. Only the host needs it."
+  },
+  "SpongeMods-SpongesMovementTweaks": {
+    "name": "Sponge 移动调整",
+    "description": "改善游泳体验，并可开启武器后坐力助推跳跃；本地生效。",
+    "source_description": "Swimming that is not a chore, plus an optional launch jump from weapon recoil. Local only, safe in any lobby."
+  },
+  "SpongeMods-SpongesQOL": {
+    "name": "Sponge 便利功能",
+    "description": "支持同类物品堆叠、保存更多掉落物，以及带日期的可还原备份历史。",
+    "source_description": "Stack identical items in one slot, keep more dropped items in your save, and a dated backup history you can restore from."
+  },
+  "SpongeMods-SpongesFishermansTally": {
+    "name": "钓手战绩与成长",
+    "description": "鱼体型与重量对应，记录最佳鱼获并提供共享榜单，以及幸运和售价升级。",
+    "source_description": "Fish that genuinely vary in size, drawn at the size they weigh, a record book of your best catches, a shared board, and a rod bench selling luck and sale-value upgrades."
+  },
+  "SpongeMods-SpongesEnhancedGUI": {
+    "name": "Sponge 战斗信息面板",
+    "description": "集中显示 Boss 生命、离场倒计时、附近鱼的血量和武器余弹。",
+    "source_description": "One tidy board of combat readouts: boss health, time until the boss leaves, health for nearby fish, and rounds left in your weapon."
+  },
+  "SpongeMods-SpongesModMenu": {
+    "name": "Sponge 设置菜单",
+    "description": "用一个游戏内菜单集中调整已安装的 Sponge 系列 Mod 设置。",
+    "source_description": "One in-game menu, on one key, holding the settings for every Sponge mod you have installed."
+  },
+  "SpongeMods-SpongesUILib": {
+    "name": "Sponge 界面库",
+    "description": "Sponge 系列 Mod 的共用 UI 工具库，仅在依赖要求时安装。",
+    "source_description": "Shared UI toolkit for Sponge's mods. Install it only if another mod asks for it."
+  },
+  "SpongeMods-SpongeCore": {
+    "name": "Sponge 核心库",
+    "description": "Sponge 系列 Mod 的共用基础依赖，本身不提供独立玩法。",
+    "source_description": "Shared plumbing for Sponge's mods. Install it only if another mod asks for it."
+  },
+  "pulsion-SidewaysGuns": {
+    "name": "横持枪械",
+    "description": "让枪械横向持握，可在游戏玩法设置中切换。",
+    "source_description": "Holds every gun sideways like a gangster, with an in-game toggle in the Gameplay settings."
+  },
+  "pulsion-ItemDotSize": {
+    "name": "物品提示点大小",
+    "description": "放大鱼和物品上方的提示点，并在游戏设置中提供大小滑块。",
+    "source_description": "Makes the dot shown over fish and items bigger, and adds a 'Dot Size' slider to the Gameplay settings menu so you can change the size."
+  },
+  "J_axon-HowToFishXR": {
+    "name": "VR 沉浸式钓鱼",
+    "description": "完整六自由度 PCVR 支持，包括手部追踪、实体收线、双手持枪、全身 IK 和联机姿态同步。",
+    "source_description": "Full 6DoF PCVR for How to Fish with tracked hands, hand-aimed melee, physical fishing and reeling, two-handed guns, full-body IK, VR UI, and multiplayer pose syncing."
+  },
+  "Ice_Box_Studio_HTF-HowtoFishLocalizationAPI": {
+    "name": "Mod 多语言接口",
+    "description": "让兼容 Mod 加载自己的语言文件，并随游戏语言切换更新界面；开发依赖。",
+    "source_description": "How to Fish Localization API is a shared dependency API for How to Fish mods. It lets compatible mods load their own language files and update their UI when the game language changes."
+  },
+  "FlabasGeezahs-HTFBulkBuy": {
+    "name": "商店批量购买",
+    "description": "按 T 选择 1、5、10、25 或 50 件，批量购买鱼饵、物品、背包格与武器升级。",
+    "source_description": "Buy in bulk at any vendor. Press T to pick a quantity (1/5/10/25/50) and buy that many at once - bait, items, pocket unlocks, weapon upgrades."
+  },
+  "Ice_Box_Studio_HTF-OwnedItemRecovery": {
+    "name": "个人物品归属与找回",
+    "description": "标记联机中自己主动丢弃或死亡掉落的物品，方便辨认和找回，支持存档。",
+    "source_description": "Marks items dropped by you in multiplayer games, making it easy to see who they belong to and recover your own items later. Supports items dropped manually and upon player death, and persists with saves."
+  },
+  "Ice_Box_Studio_HTF-HowtoFishIdentityAPI": {
+    "name": "玩家身份验证接口",
+    "description": "为房主权威型 Mod 提供稳定、经过验证的玩家身份标识；开发依赖。",
+    "source_description": "HowtoFishIdentityAPI is a shared identity verification API for How to Fish mods. It gives server-authoritative mods a stable, verified player key."
+  },
+  "wuqu-FishFun_CN": {
+    "name": "FishFun 中文汉化",
+    "description": "汉化暂停菜单、Mod 设置和辅助菜单等游戏界面文本。",
+    "source_description": "渔力全开（How to Fish）中文汉化补丁，汉化暂停菜单、模组设置界面、作弊菜单等 UI 文本。"
+  },
+  "PonyFisher-HudControl": {
+    "name": "HUD 大小与透明度",
+    "description": "按 F1 调整界面缩放、隐藏状态和透明度，设置自动保存。",
+    "source_description": "Press F1 to customize the How to Fish HUD: scale it from 100% down to 50%, hide it, or adjust its opacity. Settings save automatically."
+  },
+  "Ayinz-The_Island_Project": {
+    "name": "群岛全面重制",
+    "description": "用重新制作的岛屿替换原有岛屿布局。",
+    "source_description": "A complete overhaul of all the islands bringing new fresh islands for all the old ones. Made by myself [Ayinz]"
+  },
+  "ArceDev-ExoticUpgrades": {
+    "name": "特殊武器升级",
+    "description": "为不同枪械和近战模型解锁、配置特殊效果。",
+    "source_description": "Unlock and configure exotic effects for each firearm and melee model."
+  },
+  "ArceDev-FishEffects": {
+    "name": "食物状态效果",
+    "description": "可食用生物根据物种和烹饪状态提供不同的正面或负面效果。",
+    "source_description": "Every edible creature grants a predictable good, bad, or deeply questionable effect based on its species and cooking state."
+  },
+  "ArceDev-StatusCore": {
+    "name": "状态效果核心接口",
+    "description": "用于定时玩家状态、联机同步和原版 HUD 展示的开发接口。",
+    "source_description": "Developer API for authoritative timed player statuses, synchronization, and native HUD presentation."
+  },
+  "ArceDev-NativeStatusUI": {
+    "name": "原版风格状态图标库",
+    "description": "帮助 Mod 添加与游戏原版生命状态界面一致的限时状态图标。",
+    "source_description": "Developer library for adding timed status icons that match How to Fish's native vitals UI."
+  },
+  "ArceDev-UpgradeCore": {
+    "name": "升级系统核心接口",
+    "description": "用于注册升级项目，管理玩家升级归属与启用状态的开发接口。",
+    "source_description": "Developer API for registering upgrades and managing persistent player ownership and activation."
+  },
+  "ArceDev-ArmedToTheGills": {
+    "name": "身上可见武器",
+    "description": "将玩家背包中的武器显示在身体上，当前持握武器不重复展示。",
+    "source_description": "See the weapons in every player's inventory strapped to their body, with the equipped weapon removed from the display."
+  },
+  "MoxEU-HowToFishPvp": {
+    "name": "多人 PvP 对战",
+    "description": "20 回合 Steam 合作对战，包含竞技场、雪地回合、绳索枪、房主设置、上涨水位和胜者镜头。",
+    "source_description": "20-round PVP on Steam co-op. Islands, stone/ice arenas, snow rounds, Rope Gun, host PVP settings, better drops, grab, rising water, winner cam."
+  },
+  "mexico_nini-HowToFish_Comprehensive_Optimization": {
+    "name": "综合性能优化",
+    "description": "通过 JIT 预热、日志精简、温和垃圾回收与岛屿预加载减少卡顿，作者称不改变画面和存档。",
+    "source_description": "Pure-performance BepInEx 5 plugin for How to Fish. JIT warmup, log trim, gentle GC, and island early-load reduce stutter without affecting mods, loot, saves, or visuals."
+  },
+  "YoxiUI-CustomIslandsLoader": {
+    "name": "自定义岛屿加载器",
+    "description": "支持替换原版五岛或在外海新增岛屿，加载地图包与 JSON 配置。",
+    "source_description": "Runs custom islands - both maps that replace one of the game's five and brand new islands added out in open water. Install an island pack and play. Any map that is a bundle and a json drops straight in."
+  },
+  "zPaulinBRz-zPaulins_A10_Warthog": {
+    "name": "A-10 攻击机",
+    "description": "在火山岛外的航母上购买并驾驶 A-10，配备 30 毫米机炮和六枚制导炸弹。",
+    "source_description": "Fly an A-10 Warthog. Buy it from a pilot on a carrier off the volcano island, then take it off the deck whenever you like. The 30mm cannon works, and it carries six JDAMs that guide themselves onto the fish you aimed at."
+  },
+  "Kalamies-MorePlayers": {
+    "name": "32 人联机",
+    "description": "将房间人数上限从 8 人扩大至最多 32 人。",
+    "source_description": "Fish with up to 32 players instead of 8."
+  },
+  "Estonia-Fresh_Wheel_Spins": {
+    "name": "皮肤转盘去重",
+    "description": "尚有未解锁皮肤时，阻止转盘抽出重复皮肤。",
+    "source_description": "Stops the wheel from giving you duplicate skins when locked skins are still available"
+  },
+  "yepokay-LaserSightEditor": {
+    "name": "激光瞄具调色",
+    "description": "F9 切换七种颜色，F10 切换五档发光强度。",
+    "source_description": "Customize your laser sight's color and glow intensity with hotkeys. F9 cycles through 7 preset colors, F10 cycles through 5 glow intensity levels."
+  },
+  "ReyDev-ImpactFrameMod": {
+    "name": "高伤武器冲击画面",
+    "description": "使用狙击枪等高伤武器射击时增加镜头扭曲与色差冲击效果。",
+    "source_description": "Adds a violent lens distortion and chromatic aberration impact frame effect when firing high-damage weapons like snipers."
+  },
+  "ReyDev-DinamiteExplosionLaunch": {
+    "name": "炸药爆炸助推",
+    "description": "让炸药爆炸将玩家向上与横向抛射，影响移动动量。",
+    "source_description": "Dynamite explosions launch players upward and horizontally controlling momentum."
+  },
+  "XiaohaiMod-HTF_MoreHead": {
+    "name": "更多装扮框架",
+    "description": "支持创作者通过 Unity SDK 制作独立装扮资源包，玩家从原版帽子、配饰和服装选项切换。",
+    "source_description": "HTF MoreHead is a BepInEx cosmetic framework for How to Fish. Content creators build independent .htfhhh AssetBundles with the Unity SDK; players select them through the game's original Hat, Accessory, and Outfit arrows."
+  },
+  "Estonia-Multiplier_Editor": {
+    "name": "击杀评分倍率编辑",
+    "description": "房主可在游戏中调整远射、爆头、盲射等原版击杀评分倍率。",
+    "source_description": "adds a host only in game editor for changing killscore bonus multiplers like longshot, killshot, headshot, no scope etc (all multiplayers what the game has)"
+  },
+  "Yakari-TalkingBingBong": {
+    "name": "会说话的 Bing Bong",
+    "description": "挤压玩偶发出叫声，再像魔法八号球一样回应；支持联机。",
+    "source_description": "Squeeze Bing Bong like the PEAK plushy he is. He squeaks, then answers you like a magic 8-ball. Works in multiplayer."
+  },
+  "YoxiUI-BetterOceans": {
+    "name": "动态海洋",
+    "description": "改进朝岸浪、海水透明度、船只起伏和尾流，并提供游戏内着色器设置。",
+    "source_description": "A real sea. Waves that turn to face the beach and break on it, water you can genuinely see through, boats that ride the swell, a wake behind them, and a Shaders screen in the pause menu to run it all from."
+  },
+  "liud-EatToSell": {
+    "name": "吃鱼也能赚钱",
+    "description": "食用鱼获时恢复生命与饥饿，同时获得完整出售价格。",
+    "source_description": "Eating food restores health/hunger AND pays you its full sell value at the same time. Eat your catch, get paid instantly."
+  },
+  "Ayinz-ReLight": {
+    "name": "ReLight 光影",
+    "description": "基于 ReShade 的灯光效果；作者要求从项目网站手动下载，不能按普通插件直接安装。",
+    "source_description": "A lighting based shader inside of ReShade. IF YOU ARE SEEING THIS ON THUNDERSTORE MOD MANAGER CLICK 'WEBSITE' AND DOWNLOAD."
+  },
+  "YoxiUI-LivingSkies": {
+    "name": "动态天空与天气",
+    "description": "加入昼夜、星空、流星、雾、风暴、雨和雷电；已含 HTFDayNight，不应重复安装两者。",
+    "source_description": "The complete sky: day-night cycle (sunsets, twinkling galaxy nights, shooting stars, fog that wears the horizon) PLUS storms, rain, lightning, thunder. Includes HTF Day and Night - do not install both."
+  },
+  "Yakari-DoubleOrNothing": {
+    "name": "翻倍或归零",
+    "description": "抛硬币决定鱼的命运：正面售价翻倍，反面鱼消失；第三岛起商店售价 1 美元，支持联机。",
+    "source_description": "Flip a coin over your fish. Heads = double money. Tails = fish gone. $1 in the shop from island 3. Works in multiplayer."
+  },
+  "Ice_Box_Studio_HTF-AmmoCounter": {
+    "name": "武器弹药与击杀计数",
+    "description": "显示当前武器弹匣、名称、配件，并可显示 StatTrak 风格击杀数。",
+    "source_description": "Adds a simple ammo display for the weapon in your hands. It shows the magazine ammo, weapon name, installed attachments, and an optional StatTrak™ kill count."
+  },
+  "YoxiUI-Minimap": {
+    "name": "实时小地图",
+    "description": "在角落实时渲染周围地图，标记自己、船和队友，支持自定义岛屿。",
+    "source_description": "A live minimap in the corner. It renders the world under you in real time, marks you, your boat and your crew, and works with custom islands out of the box."
+  },
+  "Estonia-block_selling_ur_weapons_to_npcs": {
+    "name": "防止误卖武器",
+    "description": "阻止将武器意外卖给 NPC，可在游戏设置中开关。",
+    "source_description": "Prevents weapons from being accidentally sold to the NPC. with an in game toggle setting"
+  },
+  "Stendari-BlirUBoat": {
+    "name": "船头神秘按钮",
+    "description": "在船头增加一个作者不建议按下的神秘按钮。",
+    "source_description": "There is a button on the bow of your boat. You are not supposed to press it."
+  },
+  "Estonia-SeagullSpawner": {
+    "name": "海鸥生成控制",
+    "description": "房主可调整海鸥生成、鸟群规模、生成速度、数量和偷窃概率。",
+    "source_description": "adds host side server settings for controlling seagull spawning, swarm size, spawn speed, amount, stealing chance etc"
+  },
+  "ArceDev-HowToChonk": {
+    "name": "吃胖饿瘦",
+    "description": "过量吃鱼会让玩家变胖，饥饿使其变瘦，声音也随体型变化。",
+    "source_description": "Overflowing fish meals make players chonkier, hunger makes them thinner, and their voices follow along."
+  },
+  "ArceDev-YeetToEat": {
+    "name": "投喂队友",
+    "description": "把死去的生物扔进队友嘴里，即可给队友喂食。",
+    "source_description": "Yeet dead creatures into your friends' mouths to feed them."
+  },
+  "KeyErrorFinn-How_to_Karambit": {
+    "name": "爪子刀",
+    "description": "将手持小刀替换为可配置爪子刀，支持皮肤、两种姿势和原版刀切换。",
+    "source_description": "Replaces the held knife with a configurable karambit featuring knife-skin support, two poses, original materials, and an instant vanilla-knife toggle."
+  },
+  "KeyErrorFinn-How_to_QuickSell": {
+    "name": "快捷出售",
+    "description": "快速出售背包鱼获与附近死鱼，包含防误操作设置；面向单人及房主。",
+    "source_description": "Sell inventory catches and nearby dead fish instantly with safeguards and native Gameplay options. Designed for single-player and lobby hosts."
+  },
+  "Hai_Xi-CFFeedback": {
+    "name": "CF 风格击杀反馈",
+    "description": "为连杀、爆头、刀杀、雷杀、Boss 和 C4 添加音效与动态图标，支持自定义资源包。",
+    "source_description": "为 How to Fish 添加 CF 风格击杀反馈：连杀、爆头、刀杀、雷杀、Boss 与 C4 音效和动态图标，支持自定义资源包与单项映射。"
+  },
+  "evansvl-SpeedrunMod": {
+    "name": "速通计时面板",
+    "description": "只读速通 HUD，支持自动扣除加载时间、阶段分段、最终时间及 Any% / 100% 分类。",
+    "source_description": "A read-only speedrun HUD with automatic loadless timing, progression splits, final-time display, and Any% or 100% categories."
+  },
+  "YoxiUI-CustomIslands_MapmakerKit": {
+    "name": "自定义岛屿制作工具",
+    "description": "Unity 地图制作项目，用于制作岛屿、布置场景和商店；需手动下载，不是运行时插件。",
+    "source_description": "Build your own How to Fish islands in Unity: sculpt, dress with the game's props, place working shops, ship as two files. Tools only, no game assets. DOWNLOAD MANUALLY - this is a Unity project, not a runtime mod."
+  },
+  "FlabasGeezahs-ChatRichText": {
+    "name": "聊天富文本",
+    "description": "恢复粗体、斜体、删除线和彩色聊天文本，仅自己安装即可显示其他玩家消息。",
+    "source_description": "Brings back rich text formatting in multiplayer chat. Type *bold*, _italic_, ~~strikethrough~~ or [color=red]text[/color] like you would in Steam chat. Works on messages from every player in the lobby, and only you need the mod."
+  },
+  "ArceDev-BossDamageSummary": {
+    "name": "Boss 实时伤害统计",
+    "description": "战斗中显示每位玩家对 Boss 的伤害与贡献。",
+    "source_description": "Shows each player's live damage and contribution during boss fights."
+  },
+  "hiccup-GreedySeagulls": {
+    "name": "贪婪海鸥",
+    "description": "海鸥会偷手中、鱼竿与地面的物品，叼枪飞行时会开火；激怒后可能成群袭击甚至偷船。",
+    "source_description": "Seagulls steal from your hands, off your rod, and off the ground. A stolen gun fires as they fly. Anger the flock and they swarm. Sometimes they just take the whole boat."
+  },
+  "hiccup-SaveBackups": {
+    "name": "存档自动备份",
+    "description": "滚动备份存档，在读档页提供备份入口，还原时同时恢复对应 Mod 数据。",
+    "source_description": "Automatic rolling backups of your save files, with a Backups tab in the Load Game screen. Restores mod data alongside the save, so a snapshot puts everything back together."
+  },
+  "hiccup-NoSharedMoney": {
+    "name": "独立钱包",
+    "description": "取消共享资金，每位玩家单独赚钱、消费，并在不同游戏会话之间保存余额。",
+    "source_description": "Money is earned and spent per player instead of from one shared pot. Everyone keeps their own wallet, saved between sessions."
+  },
+  "XiaohaiMod-HTF_MoreItemAPI": {
+    "name": "自定义物品开发接口",
+    "description": "提供自动物品 ID、资源图标、持握姿态、组件重建与 FishNet 生成支持。",
+    "source_description": "Runtime API for How to Fish custom-item mods, with automatic Item IDs, AssetBundle icons and hand poses, game-component reconstruction, and FishNet spawning."
+  },
+  "YoxiUI-Torch": {
+    "name": "手持火把",
+    "description": "新增具有火焰、暖光和动态阴影的火把，放下后变为余烬；房主按 T 生成。",
+    "source_description": "A real torch item: procedural fire in your fist, warm light and moving shadows. Blazes in hand, calms to embers when dropped. Host spawns them with T."
+  },
+  "lagarbure-DeathItemRack": {
+    "name": "团灭装备架",
+    "description": "团灭后全队装备集中放在出生点的标记架上，避免散落各处；房主端可配置。",
+    "source_description": "On a squad wipe, the whole squad's gear waits on a labelled rack at spawn instead of scattering across the map. Host-side, configurable."
+  },
+  "MaigeDevTeam-BetterDisplay": {
+    "name": "信息显示增强（MelonLoader）",
+    "description": "改善 HUD 标记、准星、食物、生命、弹药与 Boss 方向提示；需要 MelonLoader 0.7.3+。",
+    "source_description": "MelonLoader 0.7.3+ mod for How to Fish: improves HUD markers, crosshair, food/vitals/ammo info, Boss direction indication, and optional center-screen firearm aiming."
+  },
+  "kr_zhou-AlwaysPremium": {
+    "name": "鱼获必定珍品",
+    "description": "让每次鱼获都成为珍品，仅房主安装时生效。",
+    "source_description": "Every catch is a guaranteed gem.Only takes effect when installed on the host."
+  },
+  "kr_zhou-OnePunch": {
+    "name": "一拳蓄能",
+    "description": "拳击造成伤害或食用食物可恢复能量，满能量后的下一拳造成 9999 伤害。",
+    "source_description": "Dealing damage with fists or consuming food restores energy. At full energy, your next punch deals 9999 damage."
+  },
+  "ADHDCory-Minigun": {
+    "name": "加特林机枪",
+    "description": "在部分岛屿商店加入可购买的转管机枪。",
+    "source_description": "Add a minigun to purchase on some of the islands!"
+  },
+  "FlabasGeezahs-FlabaNpcFramework": {
+    "name": "任务 NPC 框架",
+    "description": "通过 JSON 配置添加任务 NPC、对话、需求物品与奖励，另提供 C# 接口。",
+    "source_description": "Add quest NPCs to How to Fish by writing a JSON file. Dialogue, an item they want, and a reward the game already knows how to save. No code needed, with a C# API for mods that want one."
+  },
+  "ReyDev-CODFishPerks": {
+    "name": "COD 风格技能",
+    "description": "闪光鱼携带技能，查看后食用获得临时增益，涉及伤害、防御、换弹、移动、回复与评分等。",
+    "source_description": "Brings Call of Duty style perks to How To Fish. Each drip fish carries one perk. Inspect it to see which one, then eat to gain a temporary buff. Perks affect damage, defense, reload speed, movement speed, health recovery, scoring, and boss-fight revives."
+  },
+  "YoxiUI-HTFDayNight": {
+    "name": "昼夜与星空",
+    "description": "加入完整昼夜、日落、银河、发光月亮和天空海面倒影。",
+    "source_description": "A full day and night cycle: real sunsets, a galaxy night with a glowing moon, and an ocean that mirrors the sky."
+  },
+  "Meowws-BoomThisHowToFish": {
+    "name": "BoomThis 功能菜单",
+    "description": "为游戏增加功能菜单，具体选项以作者页面为准。",
+    "source_description": "An in-game feature menu for the HowToFish game"
+  },
+  "Kimbabheaven-MutatedBowheadWhalePatternAdditionMod": {
+    "name": "变异弓头鲸招式扩展",
+    "description": "为变异弓头鲸 Boss 增加攻击招式。",
+    "source_description": "변이 향유고래 패턴 추가 (Adds Mutated Bowhead Whale patterns)"
+  },
+  "lagarbure-BossHpText": {
+    "name": "Boss 数字血量",
+    "description": "在原版 Boss 血条内显示当前与总生命值；客户端可配置。",
+    "source_description": "Writes the boss's current/total HP inside the boss health bar, in the game's own font. Client-side, configurable."
+  },
+  "lagarbure-Fishypedia": {
+    "name": "鱼类收藏图鉴",
+    "description": "将图鉴改为奖杯陈列，展示闪光鱼奖章、捕获与出售统计，以及准确鱼饵概率。",
+    "source_description": "Turns the Fishpedia into a trophy case. Wooden plaques, medals for shiny catches, and per-creature caught / sold / earned / deaths stats, plus the exact bait odds for every fish."
+  },
+  "Yukikaco-IslandESP": {
+    "name": "岛屿坐标标记",
+    "description": "显示岛屿坐标、距离和三维触发范围球。",
+    "source_description": "Displays island coordinates, distances, and 3D trigger spheres."
+  },
+  "bwby-bwbyKickMod": {
+    "name": "联机踢人与封禁",
+    "description": "为房主提供玩家列表、一键踢人和持久化封禁名单。",
+    "source_description": "Server admin tool for multiplayer: player list GUI, kick players, persistent ban list. 联机管理工具: 服务器玩家列表界面, 一键踢出玩家, 封禁名单持久化保存, 房主必备."
+  },
+  "MoreKnifeSelection-ButterflyKnifeOnShop": {
+    "name": "蝴蝶刀与刺刀商店",
+    "description": "商店新增原版 M9 刺刀与蝴蝶刀选择，包含持刀检视动作。",
+    "source_description": "Adds a focused $45 selector for the original M9 Bayonet and a Blender-authored Butterfly Knife with a native-hand inspect flourish."
+  },
+  "FlabasGeezahs-BloodColor": {
+    "name": "血液颜色调整",
+    "description": "实时修改喷血和地面血迹颜色，也可完全关闭血液显示。",
+    "source_description": "Change the colour of blood in How to Fish. Pick any colour and it changes the spray when you hit something and the splatter left on the ground. Or turn blood off completely. Updates while you play."
+  },
+  "Sopika-FishyUI": {
+    "name": "原版风格界面库",
+    "description": "为 Mod 提供复制原版控件风格的窗口界面。",
+    "source_description": "Windows for mods, cloned from the game's own widgets."
+  },
+  "sudabuu-MeleeRange": {
+    "name": "超长拳击距离",
+    "description": "大幅增加拳击距离，手臂也随之伸长。",
+    "source_description": "The punching range becomes very long, and your arm extends accordingly."
+  },
+  "NekoTeam-HowToFishDevConsole": {
+    "name": "开发者指令控制台",
+    "description": "游戏内控制台，支持无敌、飞行、穿墙、生成物品、踢人与封禁、加钱和一击击杀。",
+    "source_description": "An in-game developer console for How To Fish with god mode, fly, noclip, item spawning, ban/kick systems, add money, one hit."
+  },
+  "big_jj-FishGodMode": {
+    "name": "无敌与无限弹药",
+    "description": "小键盘 1 切换无敌，2 切换无限弹药，3 切换一击击杀。",
+    "source_description": "God mode, infinite ammo, and one-shot kill for How to Fish. Num1=God, Num2=Ammo, Num3=OneShot."
+  },
+  "Sopika-Inspect_Fix": {
+    "name": "检视面板跟随修复",
+    "description": "切换快捷栏时，检视面板改为显示当前手持物品，不再残留上次检视信息。",
+    "source_description": "The inspect panel now follows the item in your hands instead of leaving the last one you inspected on screen while you switch slots."
+  },
+  "chadi7bark-TeleportationMap": {
+    "name": "地图点击传送",
+    "description": "点击地图任意位置即可快速传送。",
+    "source_description": "Click anywhere on the map to instantly fast travel across the world."
+  },
+  "chadi7bark-SkyboatBomber": {
+    "name": "飞船轰炸机",
+    "description": "将小船变成可飞行的轰炸机，并从空中投下炸药。",
+    "source_description": "Turn your boat into a flying bomber and drop dynamite from the sky."
+  },
+  "OdinPlus-ItemRetriever": {
+    "name": "遗失物品找回",
+    "description": "从海里、熔岩或地图其他位置拉回遗失物品。",
+    "source_description": "Pull lost items back from the ocean, lava, or anywhere on the map."
+  },
+  "Ice_Box_Studio_HTF-ModUpdateChecker": {
+    "name": "Mod 更新检查",
+    "description": "将已安装 Mod 与 Thunderstore 社区的最新版本比较，检查更新。",
+    "source_description": "Checks the installed How to Fish mods against their latest versions on the Thunderstore community."
+  },
+  "Azumatt-BetterSwimming": {
+    "name": "游泳优化",
+    "description": "按住按键持续游泳，无需反复按跳跃；支持踩水、潜水和随波浮力设置。",
+    "source_description": "Hold to swim instead of mashing jump. Treading water, diving, wave-accurate buoyancy, all configurable."
+  },
+  "Ice_Box_Studio_HTF-HostControl": {
+    "name": "房主控制面板",
+    "description": "游戏内房主管理面板，用于更方便地管理联机玩家。",
+    "source_description": "Provide the host with a simple in-game host control panel, without any unnecessary or violent features, to make it easier to manage players in multiplayer games."
+  },
+  "Azumatt-ChumBucket": {
+    "name": "批量卖鱼桶",
+    "description": "将便携桶放在任意位置，装入鱼获后一键整桶出售，无需逐条投喂 NPC。",
+    "source_description": "A portable bucket you drop anywhere. Throw your catch in, hit the button, sell the lot at once instead of feeding fish to an NPC one at a time."
+  },
+  "sudabuu-Fly": {
+    "name": "双击空格飞行",
+    "description": "双击空格键进入飞行。",
+    "source_description": "Double-tap the spacebar to fly."
+  },
+  "sudabuu-DollarStoreTNT": {
+    "name": "一元店炸药",
+    "description": "售价 1 美元、可投掷很远，但可能立刻爆炸或变成哑弹。",
+    "source_description": "一元店TNT。只要 $1，扔得超远，但便宜没好货——可能瞬爆，也可能哑火。Dollar Store TNT. For just $1, it flies ridiculously far — but cheap comes with a catch: it may blow up instantly, or it may be a dud."
+  },
+  "ftsgyyds-FishAimbotUnified": {
+    "name": "综合瞄准与增强菜单",
+    "description": "包含子弹追踪、皮肤发光、夜间模式和生成器等功能的综合菜单。",
+    "source_description": "Next-Gen Unified Cheat & Enhancement Mod with Neumorphism UI, Bullet Tracking, Skin Glow, Night Mode, Spawner & more for How to Fish."
+  },
+  "Caijue-MagicBullet": {
+    "name": "魔法子弹",
+    "description": "支持静默瞄准、强制爆头、目标预测、视野圈、追踪线和可选穿墙。",
+    "source_description": "Silent Aim / Magic Bullet with forced headshots, target prediction, configurable targeting modes, FOV circle, target tracking line, and optional wall penetration for How to Fish. (Created with AI assistance)."
+  },
+  "Azumatt-FistDamage": {
+    "name": "拳击属性设置",
+    "description": "调整拳击伤害、距离、命中范围与推开物品的力度；默认值与原版一致，客户端生效。",
+    "source_description": "Configurable fists. Set punch damage, reach, hit radius, and the force a punch shoves items with. Client side, defaults match vanilla."
+  },
+  "bwby-bwbyKnifeDrawAction": {
+    "name": "M9 切刀动作",
+    "description": "切换快捷栏到小刀时播放 M9 刺刀风格拔刀动作。",
+    "source_description": "Knife draw action: switching to the knife on the hotbar plays an M9 bayonet-style draw animation. 切刀动作: 快捷栏切到小刀时播放 M9 刺刀风格拔刀动画."
+  },
+  "bwby-bwbyCigaretteSmoke": {
+    "name": "无眩晕香烟",
+    "description": "将啤酒罐替换为香烟，支持点燃、冒烟和熄灭音效，不产生镜头晃动。",
+    "source_description": "Turn the BeerCan into a cigarette: raise to mouth, light up, puff smoke, butt out - with a custom sound. No camera dizziness. 无眩晕版: 把啤酒罐变成香烟, 举到嘴边、点燃、冒烟、熄灭, 附定制音效, 无镜头晃动."
+  },
+  "Odie-MinecraftSoundReplacement": {
+    "name": "我的世界进食音效",
+    "description": "用 Minecraft 音效替换游戏进食声音。",
+    "source_description": "Replaces game eating sounds with Minecraft audio. Good for misophonia."
+  },
+  "Azumatt-FishSlapper": {
+    "name": "拍鱼涨价",
+    "description": "拍打鱼获提升售价，但第一次之后的每次拍打都有可能让整条鱼损失。",
+    "source_description": "Slap your catch around to make it worth more. Every smack raises the price, every smack after the first might cost you the lot."
+  },
+  "zPaulinBRz-DayNightCycle": {
+    "name": "连续昼夜循环",
+    "description": "太阳、雾和环境光随时间变化，支持合作游玩。",
+    "source_description": "Continuous day and night cycle for How to Fish. Sun, fog and ambient light follow the time of day, co-op works fine."
+  },
+  "zPaulinBRz-NoMoreRoastedGuns": {
+    "name": "武器鱼竿防烤",
+    "description": "阻止武器和鱼竿被烤架或熔岩烹饪，鱼仍可正常烤熟。",
+    "source_description": "Stops weapons and fishing rods being cooked on the grill or in lava. Fish still cook normally."
+  },
+  "zPaulinBRz-zPaulinsWeaponArsenal": {
+    "name": "武器库扩展",
+    "description": "枪店新增沙漠之鹰和 FN FAL，包含持握、机械瞄具与拉机柄表现。",
+    "source_description": "Adds a Desert Eagle and an FN FAL to the gun store, with solved hand IK, tuned iron sights and a working charging handle. New weapons are data, not code."
+  },
+  "zPaulinBRz-TrueFirstPerson": {
+    "name": "完整第一人称身体",
+    "description": "第一人称可以看见自己的胸部、手臂、腿与脚。",
+    "source_description": "See your own body in first person - chest, arms, legs and feet - instead of floating hands."
+  },
+  "NekoTeam-HTFFriendList": {
+    "name": "好友与邀请码面板",
+    "description": "显示 Steam 好友及在线状态，支持加入与邀请，并提供非 Steam 好友代码系统。",
+    "source_description": "The friends panel for How To Fish: adds a list of Steam friends, status (online/in-game/in the lobby), JOIN and INVITE buttons, as well as a system of friends by code for non-Steam friends."
+  },
+  "NekoTeam-BunnyHop": {
+    "name": "兔子跳",
+    "description": "按住跳跃连续起跳，空中获得速度加成，并显示速度与状态。",
+    "source_description": "Adds bunny-hopping to How To Fish: auto-jump while holding the jump key and a speed boost while airborne, plus a simple speed/status HUD."
+  },
+  "NekoTeam-CustomURLRadio": {
+    "name": "网址音乐电台",
+    "description": "通过网址在游戏内电台播放自定义音乐，并同步给其他玩家。",
+    "source_description": "Play your own music from any URL on any in-game radio, synced for everyone."
+  },
+  "CMax-HideVersion": {
+    "name": "版本文字透明度",
+    "description": "调整版本号文字的透明度。",
+    "source_description": "Adjust the transparency of the version text."
+  },
+  "Hatsune_EXO-HTFHollowPurple": {
+    "name": "虚式·茈",
+    "description": "蓄力双球后向前释放攻击，支持伤害数字、评分和可拾取尸体；所有玩家可施放。",
+    "source_description": "Charge two orbs, extend your hands and erase everything in front of you. Real kills with damage numbers, score and lootable bodies. Anyone can cast it."
+  },
+  "ser1ka-HtF_HostRules": {
+    "name": "房主难度与规则",
+    "description": "房主调整生物血量、承伤、友伤、饥饿、回复、中毒、复活、鱼重和咬钩时间等规则。",
+    "source_description": "Stepless difficulty and host rules: creature health, damage taken, friendly fire, one-shot kills, hunger, regen, poison, fire, PvP damage, revive values, plus catch weights and bite time. Host only. English / 繁體中文."
+  },
+  "sh4rk0000-GrenadesShotgun": {
+    "name": "霰弹枪榴弹发射",
+    "description": "将霰弹枪变为碰撞引爆的炸药发射器，伤害随子弹升级，支持联机同步。",
+    "source_description": "Turns the shotgun into an impact dynamite launcher. Damage scales with bullet upgrades. Fully synced for host and clients."
+  },
+  "kr_zhou-EnhancedRespawn": {
+    "name": "Boss 战自主复活",
+    "description": "Boss 战中，只要队伍尚未全员倒地，就允许自己复活。",
+    "source_description": "You can self‑respawn during the boss fight as long as your teammates are not all down."
+  },
+  "LHrain-HostTeamDamage": {
+    "name": "队友伤害倍率",
+    "description": "由房主调整友军伤害倍率。",
+    "source_description": "Host-only friendly-fire damage multiplier for How to Fish."
+  },
+  "Meowws-CigaretteMod": {
+    "name": "香烟替换啤酒",
+    "description": "将游戏内啤酒罐替换为香烟。",
+    "source_description": "Change the beer cans in the game into cigarettes/把游戏里的啤酒罐变成香烟"
+  },
+  "ser1ka-HtF_AmmoCounter": {
+    "name": "余弹计数与圆点",
+    "description": "通过数字、圆点或两者显示当前枪械余弹，兼容扩容弹匣；只读客户端显示。",
+    "source_description": "Shows how many rounds are left in the gun you are holding, as a number, a row of pips, or both. Follows extended magazines. Client-side and read-only. English / 繁體中文."
+  },
+  "ser1ka-HtF_ConfigMenu": {
+    "name": "通用 Mod 设置页",
+    "description": "在主菜单和暂停菜单加入设置入口，自动展示已加载 BepInEx 插件的配置项。",
+    "source_description": "In-game settings page for every loaded BepInEx plugin, with a button added to the pause and main menus. Works with any mod, not just these. English / 繁體中文."
+  },
+  "ser1ka-HtF_RadioMusic": {
+    "name": "本地音乐与同听电台",
+    "description": "每个频率对应自定义曲目，支持自动换曲、底噪调整和全房间同步收听。",
+    "source_description": "Your own music on the in-game radio: one song per frequency, auto-advance, adjustable static, and a Listen Together mode that keeps the whole lobby on the same track. English / 繁體中文."
+  },
+  "kr_zhou-AimPoint": {
+    "name": "屏幕中心准星",
+    "description": "在屏幕中央绘制瞄准点，方便腰射。",
+    "source_description": "Draw an aiming dot at the screen center for easier hip‑fire."
+  },
+  "Azumatt-SeaLegs": {
+    "name": "第一人称可见身体",
+    "description": "以其他玩家看见你的方式，显示自己的腿、躯干、手臂与持握物品。",
+    "source_description": "Everyone else sees your whole body, why shouldn't you? See your own body in first person. Legs, torso, arms and whatever you're holding, exactly the way everyone else sees you."
+  },
+  "Azumatt-FishCam": {
+    "name": "致命一击慢镜头",
+    "description": "远程攻击造成致命伤时加入慢动作电影镜头。",
+    "source_description": "Adds a slow-motion cinematic camera to lethal ranged shots."
+  },
+  "KRONAN-Enders_Ultimate_Fish_Warden_Admin_Mod": {
+    "name": "Fish Warden 管理工具（KRONAN）",
+    "description": "房主端反作弊与管理控制台，包含捣乱惩罚和可选择开放的辅助菜单。",
+    "source_description": "Host-side anti-cheat with an in-game admin console, matched troll punishments, and an optional cheat menu you choose to allow."
+  },
+  "Mossbug-UncookableItems": {
+    "name": "物品防烹饪与还原",
+    "description": "防止武器和物品被烤熟，并在加载或拾取时还原已烤熟物品，可配置开关。",
+    "source_description": "Prevents weapons and items from being cooked, and resets already cooked weapons/items on load/pickup. Includes toggles in config."
+  },
+  "ADHDCory-ADHDCoryMod": {
+    "name": "ADHDCory 测试插件",
+    "description": "作者用于实验的测试插件，原简介未提供稳定功能说明。",
+    "source_description": "Im just testing things, don't use this unless you wanna ig..."
+  },
+  "Newbies-ConsoleMod": {
+    "name": "可扩展命令控制台",
+    "description": "支持历史记录、自动补全、输入拦截、诊断工具和供其他 Mod 使用的公开接口。",
+    "source_description": "Extensible in-game command console with history, autocomplete, safe input blocking, built-in diagnostics, and a public API for future mods."
+  },
+  "Newbies-DynamicWeather": {
+    "name": "动态天气系统",
+    "description": "加入同步昼夜，以及各岛雨、风暴、雪、飓风、分层音效和天气玩法效果。",
+    "source_description": "Adds a synchronized day/night cycle, island-specific rain, storms, snow and hurricanes, layered audio, and weather-driven gameplay effects."
+  },
+  "welffi-SteadyCast": {
+    "name": "稳定抛竿",
+    "description": "每次从相同位置抛竿，避免鱼竿摆动造成抛投无力。",
+    "source_description": "Makes every cast start from the same point, no more weak casts because it was swinging around!"
+  },
+  "Ice_Box_Studio_HTF-HeldItemNameHud": {
+    "name": "手持物品名称",
+    "description": "在快捷栏上方显示手持物品名，在鱼饵盒上方显示当前鱼饵。",
+    "source_description": "Check the name of the item you are currently holding. The name appears above the hotbar, and the current bait appears above the bait box."
+  },
+  "evansvl-ModMenu": {
+    "name": "原版 Mod 设置菜单",
+    "description": "在主菜单与暂停页增加原版风格设置菜单，自动生成 BepInEx 配置控件。",
+    "source_description": "A settings-only native Mod Settings menu available from the main menu and in-game pause screen, with automatic BepInEx config controls."
+  },
+  "evansvl-FishHP": {
+    "name": "普通生物血条",
+    "description": "为被本地玩家伤到的非 Boss 生物显示同步血条，可调整颜色与受伤抖动。",
+    "source_description": "Stacks synchronized native-style HP bars for living non-boss creatures damaged by the local player, with configurable color and boss-style shake."
+  },
+  "welffi-StickyItems": {
+    "name": "掉落物存档",
+    "description": "退出游戏后保存丢在地上的物品和鱼。",
+    "source_description": "Makes dropped items/fish save when you leave!"
+  },
+  "Kalamies-TNTBait": {
+    "name": "炸药鱼饵",
+    "description": "允许将 TNT 用作鱼饵。",
+    "source_description": "Put the TNT in the bait"
+  },
+  "evansvl-BossHP": {
+    "name": "Boss 同步血量",
+    "description": "在原版血条旁显示准确的同步生命值，并允许调整血条填充颜色。",
+    "source_description": "Shows exact synchronized boss HP beside the native bar, follows its damage shake, and allows the official health fill color to be configured."
+  },
+  "evansvl-Speedometer": {
+    "name": "移动速度表",
+    "description": "分别显示相对移动速度与世界速度，包含船只直线与旋转运动；单位为 Unity 单位每秒。",
+    "source_description": "Shows separate movement-relative and reconstructed world speeds, including boat linear and rotational travel, in Unity units per second."
+  },
+  "Corntaxi-CheckMyStats": {
+    "name": "联机战绩统计",
+    "description": "只读 HUD 显示伤害、收入、鱼获、救人、队友击杀与死亡等统计，支持主客机同步。",
+    "source_description": "Read-only multiplayer HUD for damage, money, catches, revives, teammate kills, deaths, and reliable host-client stat sync."
+  },
+  "kr_zhou-HTF_DoubleJump": {
+    "name": "二段跳与空中转向",
+    "description": "落地后可进行两次跳跃，并允许跳跃过程中转向躲避飞鱼。",
+    "source_description": "Unable to dodge flying fish during jumps. Use this mod for mid‑air turning.Can perform two jumps after each landing."
+  },
+  "PIant-HowToFishDroppedPersistence": {
+    "name": "掉落物与强化持久化",
+    "description": "由服务器保存并恢复玩家拾取后丢下的物品及其原版强化属性。",
+    "source_description": "服务器主机保存并恢复玩家拿起后丢下的物品及原版强化属性。"
+  },
+  "kr_zhou-ColorfulPoint": {
+    "name": "彩色物品与目标标记",
+    "description": "武器为红点、工具为蓝点、玩家死亡位置为绿点、Boss 为橙点。",
+    "source_description": "Drops no longer show as white dots. Weapon drops display as red dots, tool drops display as blue dots. Player death positions are shown with green dots, and boss entities are marked with orange dots."
+  },
+  "ADHDCory-WashCookedItems": {
+    "name": "清洗烤熟物品",
+    "description": "允许清洗意外被烹饪的物品。",
+    "source_description": "Allows you too wash items that have been cooked accidentally."
+  },
+  "Hatsune_EXO-HTFSlide": {
+    "name": "滑铲与冲刺",
+    "description": "加入滑铲、冲刺切换和滑出边缘时的助推；客户端生效。",
+    "source_description": "Sliding, sprint toggle and a launch boost when you slide off a ledge. Client-side."
+  },
+  "welffi-CursorAim": {
+    "name": "准星射击修正",
+    "description": "让子弹朝向准星位置，而不是随枪口当前摆动方向射出。",
+    "source_description": "Makes guns fire toward your crosshair instead of wherever the barrel happens to be pointing."
+  },
+  "ReyDev-PumpJump": {
+    "name": "霰弹枪后坐力跳跃",
+    "description": "修改原版霰弹枪后坐力，支持类似火箭跳的移动。",
+    "source_description": "Modifies the native shotgun recoil to allow rocket jumping"
+  },
+  "CMax-AmmoCount": {
+    "name": "弹药数量显示",
+    "description": "为武器增加余弹计数显示。",
+    "source_description": "Adds an ammo count display for weapons."
+  },
+  "hiccup-MoreFishAPI": {
+    "name": "自定义鱼类开发接口",
+    "description": "允许其他 Mod 加入自定义鱼，并接入原版捕获、出售、烹饪与图鉴；本身不新增鱼。",
+    "source_description": "Lets other mods add custom fish to the game. Fish are caught, sold, cooked and listed in the journal like any other. Adds no fish on its own."
+  },
+  "welffi-FairerSlots": {
+    "name": "老虎机皮肤去重",
+    "description": "防止老虎机抽到重复奖励。",
+    "source_description": "Prevents you from rolling a duplicate in the slot machine!"
+  },
+  "susson-ShotgunJump": {
+    "name": "霰弹枪助推跳",
+    "description": "提高霰弹枪反冲力，让玩家跳得更高，可在配置中调整。",
+    "source_description": "Increases the shotgun knockback to jump higher. Also can be adjusted in the config."
+  },
+  "ADHDCory-BiggerLobbies": {
+    "name": "扩大联机人数",
+    "description": "提高房间允许的最大玩家数量。",
+    "source_description": "Increases the maximum number of players allowed in a lobby."
+  },
+  "ReyDev-LEGIT_ReymAssist": {
+    "name": "技巧射击辅助瞄准",
+    "description": "用于花式射击的轻度辅助，修正物理小偏差，保留后坐力，避免强制锁定式吸附。",
+    "source_description": "A balanced, skill-focused aim assist designed for trickshots. Corrects physics micro-whiffs without removing recoil or snapping like a OP aimbot."
+  },
+  "JCGGGGGGGG-FishHealthBars": {
+    "name": "可配置鱼类血条",
+    "description": "为鱼增加头顶血条，F8 打开设置，可调整 RGB 颜色和显示距离，支持中英文界面。",
+    "source_description": "Configurable overhead fish health bars with an F8 settings menu, RGB colors, display range controls, and Chinese/English UI."
+  },
+  "Hatsune_EXO-HTFCustomRadio": {
+    "name": "自定义电台来源",
+    "description": "从自己的音乐文件夹或网络电台添加节目。",
+    "source_description": "Añade tus propias emisoras a la radio apuntando a tu carpeta de música, o a emisoras de internet."
+  },
+  "EnvinciblesMods-CompleteCheatMenu": {
+    "name": "完整辅助菜单",
+    "description": "按 Insert 打开，包含无敌、飞行、透视、自由镜头、传送、船、物品、皮肤、金钱、Boss 和鱼饵等功能。",
+    "source_description": "Complete cheat menu with a clean UI: god mode, flight, ESP, free camera, teleport, boats, items, every skin, money, bosses, baits, and a rigged roulette where the ball really lands on your colour. Press Insert."
+  },
+  "Kai935-FishAimbotNoScopeEdition": {
+    "name": "腰射自动瞄准",
+    "description": "屏幕内目标可被狙击枪或步枪腰射命中，是不要求开镜的辅助版本。",
+    "source_description": "as long as its on your screen a hipfire shot from a sniper or AR is a sure hit (made this as an alternative to my other mod that requires ADS. i know a lot of you trickshotters love your no scopes.)"
+  },
+  "Kai935-FishAimbot": {
+    "name": "鱼类自动瞄准",
+    "description": "面向鱼、蟹、龙虾与 Boss 的轻量瞄准辅助，主要为狙击枪设计，也支持信天翁。",
+    "source_description": "Lightweight aimbot mod for trickshotting fish, crabs, lobsters, and bosses. Built for the sniper. (now updated to function on the albatross)"
+  },
+  "evansvl-SingleplayerPause": {
+    "name": "单人真正暂停",
+    "description": "严格单人模式下暂停游戏逻辑，同时保留界面和画面更新。",
+    "source_description": "Freezes gameplay ticks while preserving UI and frame updates in strict singleplayer only."
+  },
+  "evansvl-BossTimer": {
+    "name": "Boss 离场倒计时",
+    "description": "在原版风格 HUD 中显示当前 Boss 离开前的精确同步剩余时间。",
+    "source_description": "Shows the exact synchronized time remaining before the active boss leaves, using a native-style in-game HUD."
+  },
+  "Rompedev-RivalIsles": {
+    "name": "对抗测试岛",
+    "description": "PvP 风格测试竞技场，也是 HTF Map Loader 的参考地图。",
+    "source_description": "PvP-style test arena island for How to Fish and the official reference map for HTF Map Loader."
+  },
+  "Rompedev-HTFMapLoader": {
+    "name": "HTF 地图加载器",
+    "description": "加载 Unity 6000.4.4f1 URP 自定义岛屿，支持导航、雷达、出生点、生物选项和地图包发现。",
+    "source_description": "Custom island loader for How to Fish. Loads Unity 6000.4.4f1 URP AssetBundle maps with native navigation, radar, spawn points, wildlife options and Thunderstore map-pack discovery."
+  },
+  "HowToFish_Modding-UnityExplorer": {
+    "name": "Unity 游戏内检查器",
+    "description": "在游戏内查看、调试和修改 Unity 对象的界面工具。",
+    "source_description": "An in-game UI for exploring, debugging and modifying Unity games"
+  },
+  "Rompedev-DevIslandUnlocked": {
+    "name": "解锁开发者岛",
+    "description": "将隐藏开发岛作为第六座可航行岛屿加入雷达；作者标注适配游戏 1.0.5。",
+    "source_description": "Unlocks the hidden DevIsland as a sixth navigable island in How to Fish, with a cyan native-style radar marker. Updated for How to Fish 1.0.5."
+  },
+  "Rompedev-HTFModManager": {
+    "name": "游戏内 Mod 配置管理",
+    "description": "在选项菜单查看已加载 BepInEx 插件并修改配置；作者标注适配游戏 1.0.5。",
+    "source_description": "Native in-game mod manager for How to Fish. View loaded BepInEx mods and edit their configuration directly from the Options menu. Updated for How to Fish 1.0.5."
+  },
+  "PapaSalazar-AimUrWay": {
+    "name": "轻度瞄准辅助",
+    "description": "仅追踪鱼和动物，不追踪玩家；辅助越多伤害惩罚越大，并提供灵敏度换算和视野修正。",
+    "source_description": "Soft aim assist for mouse and keyboard, with a damage penalty that scales to how much help you took. Tracks fish and animals only, never players. Includes an exact sensitivity converter and FOV fixes."
+  },
+  "idontknowlmao-SlotMachineRenderTextureFix": {
+    "name": "老虎机高分辨率修复",
+    "description": "修复超过 1440p 时老虎机屏幕不显示的问题，限制超采样纹理不超出显卡尺寸上限。",
+    "source_description": "Fixes the Reel of Fortune (slot machine) display not rendering on high resolutions (>1440p). Clamps the 8x supersampled RenderTexture to the GPU's max texture size."
+  },
+  "Rompedev-WildEvents": {
+    "name": "随机野外事件",
+    "description": "新增海马奔袭、食人鱼雨与海胆入侵；战斗事件带 Boss 风格界面和音乐。",
+    "source_description": "Adds random Seahorse Stampede, Piranha Rain and Urchin Invasion events to How to Fish, with boss-style UI and music for combat events."
+  },
+  "Rompedev-WildAlbatross": {
+    "name": "野生信天翁",
+    "description": "周期性出现野生信天翁，可配置生成率、属性与掉落，作者标注支持 BepInEx 5.4.23.5。",
+    "source_description": "Adds recurring Wild Albatross encounters with configurable spawn rate, stats and drops. Now supports BepInEx 5.4.23.5."
+  },
+  "Kalamies-StrongerBeer": {
+    "name": "烈酒替换",
+    "description": "将啤酒及相关对话替换为 Koskenkorva 烈酒。",
+    "source_description": "Turns the beer into Koskenkorva, dialogue and all."
+  },
+  "PapaSalazar-DynamicCrosshair": {
+    "name": "动态弹道准星",
+    "description": "显示枪械真实指向与实时散布，考虑子弹下坠和枪口视差；客户端生效。",
+    "source_description": "Crosshair that marks where your gun is really pointing and traces its live spread cone, including bullet drop and muzzle parallax. Client-side, no patches."
+  },
+  "WhitetailStudios-AlwaysWinRoulette": {
+    "name": "轮盘必胜",
+    "description": "赌场轮盘始终支付你的下注收益。",
+    "source_description": "Casino roulette always pays your bet"
+  },
+  "WhitetailStudios-KeepInventory": {
+    "name": "死亡保留背包",
+    "description": "死亡或被击倒时保留物品，避免装备散落或掉进海里。",
+    "source_description": "Keep your items when you die or get knocked out. No more loot piles or snipers flying into the ocean."
+  },
+  "YVL-HowToFishCheatMenu": {
+    "name": "单人与房主工具菜单",
+    "description": "提供移动、金钱、船只、物品和皮肤控制功能。",
+    "source_description": "A solo and host utility menu for How to Fish, with movement, money, boat, item, and skin controls."
+  }
+}
